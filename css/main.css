@@ -1,4 +1,84 @@
 /* style.scss */
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: #ededed;
+    margin: 0;
+  }
+
+  div.profile {
+    background-color: #333333;
+    width: 23%;
+    position: absolute;
+  }
+  div.profile h1 {
+    color: lime;
+    margin-left: 5%;
+  }
+  div.profile h2 {
+    color: lime;
+    margin-left: 5%;
+  }
+
+  div.content {
+    background-color: #333333;
+    position: absolute;
+    width: 50%;
+    margin-left: 25%;
+    height: 650px;
+    text-align: center;
+  }
+
+  div.left-content {
+    background-color: #333333;
+    top: 20%;
+    width: 23%;
+    position: absolute;
+    height: 470px;
+  }
+  div.left-content h2 {
+    color: lime;
+    margin-left: 5%;
+  }
+
+  div.right-content {
+    width: 23%;
+    float: right;
+    color: lime;
+  }
+  div.right-content .tags {
+    background-color: #333333;
+    height: 200px;
+  }
+  div.right-content .map {
+    margin-top: 30%;
+    height: 200px;
+    background-color: #333333;
+  }
+
+  div.bottom-menu {
+    background-color: #333333;
+    color: lime;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+  }
+  div.bottom-menu p {
+    font-size: 1em;
+  }
+
+  footer p {
+    bottom: 0;
+    width: 100%;
+  }
+}
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   body {
@@ -8,60 +88,6 @@
 }
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  body {
-    background-color: #6692f2;
-    margin: 0;
-  }
-}
-/* Desktops and laptops ----------- */
-@media only screen and (min-width: 1224px) {
-  body {
-    background-color: #f3b464;
-    margin: 0;
-  }
-
-  div.profile {
-    background-color: #333333;
-    width: 20%;
-    position: absolute;
-  }
-
-  div.content {
-    background-color: #333333;
-    position: absolute;
-    width: 50%;
-    margin-left: 25%;
-    height: 300px;
-    text-align: center;
-  }
-
-  div.left-content {
-    background-color: lime;
-    top: 30%;
-    width: 20%;
-    position: absolute;
-  }
-
-  div.right-content {
-    background-color: #333333;
-    width: 20%;
-    float: right;
-  }
-
-  div.bottom-menu {
-    background-color: #333333;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-
-  footer p {
-    bottom: 0;
-    width: 100%;
-  }
-}
-/* Large screens ----------- */
-@media only screen and (min-width: 1824px) {
   body {
     background-color: #6692f2;
     margin: 0;
