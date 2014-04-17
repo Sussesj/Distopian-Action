@@ -1,40 +1,69 @@
 /* style.scss */
-body {
-  background-color: white;
-  margin: 0;
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  body {
+    background-color: #333333;
+    margin: 0;
+  }
 }
-
-div.profile {
-  background-color: #333333;
-  width: 20%;
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  body {
+    background-color: #6692f2;
+    margin: 0;
+  }
 }
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  body {
+    background-color: #f3b464;
+    margin: 0;
+  }
 
-div.content {
-  background-color: #333333;
-  display: block;
-  width: 50%;
-  text-align: center;
+  div.profile {
+    background-color: #333333;
+    width: 20%;
+    position: absolute;
+  }
+
+  div.content {
+    background-color: #333333;
+    position: absolute;
+    width: 50%;
+    margin-left: 25%;
+    height: 300px;
+    text-align: center;
+  }
+
+  div.left-content {
+    background-color: lime;
+    top: 30%;
+    width: 20%;
+    position: absolute;
+  }
+
+  div.right-content {
+    background-color: #333333;
+    width: 20%;
+    float: right;
+  }
+
+  div.bottom-menu {
+    background-color: #333333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  footer p {
+    bottom: 0;
+    width: 100%;
+  }
 }
-
-div.left-content {
-  background-color: #333333;
-  width: 20%;
-}
-
-div.right-content {
-  background-color: #333333;
-  width: 20%;
-  float: right;
-}
-
-div.bottom-menu {
-  background-color: #333333;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-footer p {
-  bottom: 0;
-  width: 100%;
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  body {
+    background-color: #6692f2;
+    margin: 0;
+  }
 }
