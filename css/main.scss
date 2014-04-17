@@ -1,0 +1,46 @@
+/* style.scss */
+
+$primary-color: #333;
+$secondary-color: #f3b464;
+$backColor: #fff;
+
+body {
+  background-color: $backColor;
+  margin: 0;
+}
+
+div.profile {
+	background-color: $primary-color;
+	width: 20%;
+}
+
+div.content {
+	background-color: $primary-color;
+	display: block;
+	width: 50%;
+	text-align: center;
+
+}
+
+div.left-content {
+	background-color: $primary-color;
+	width: 20%;
+}
+
+div.right-content {
+	background-color: $primary-color;
+	width: 20%;
+	float: right;
+}
+
+div.bottom-menu {
+	background-color: $primary-color;
+	position:fixed;
+   	bottom:0;
+   	width: 100%;
+}
+
+footer p{
+	   	bottom:0;
+   	width: 100%;
+}
