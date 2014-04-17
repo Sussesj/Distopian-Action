@@ -13,17 +13,20 @@
   }
 
   div.profile {
-    background-color: #333333;
     width: 23%;
     position: absolute;
+    margin-left: 3%;
+    border-left: 1px solid #333333;
   }
   div.profile h1 {
-    color: lime;
-    margin-left: 5%;
+    color: #f0a64b;
+    margin-left: 2%;
+    font-size: 1.2em;
   }
   div.profile h2 {
-    color: lime;
-    margin-left: 5%;
+    color: #f0a64b;
+    margin-left: 2%;
+    font-size: .8em;
   }
 
   div.content {
@@ -31,54 +34,57 @@
     position: absolute;
     width: 50%;
     margin-left: 25%;
-    height: 650px;
+    height: 690px;
     text-align: center;
   }
 
   div.left-content {
-    background-color: #333333;
-    top: 20%;
+    top: 25%;
     width: 23%;
     position: absolute;
-    height: 470px;
+    height: 370px;
+    margin-left: 3%;
+    border-left: 1px solid #333333;
   }
-  div.left-content h2 {
-    color: lime;
-    margin-left: 5%;
+  div.left-content p {
+    color: #333333;
+    margin-left: 2%;
+    font-size: .8em;
   }
 
   div.right-content {
-    width: 23%;
+    width: 20%;
     float: right;
+    margin-right: 3%;
     color: lime;
   }
   div.right-content .tags {
-    background-color: #333333;
+    color: #f0a64b;
     height: 200px;
+    text-align: center;
   }
   div.right-content .map {
-    margin-top: 30%;
-    height: 200px;
-    background-color: #333333;
+    margin-top: 70%;
+  }
+  div.right-content .map img {
+    width: 100%;
   }
 
   div.bottom-menu {
-    background-color: #333333;
-    color: lime;
+    background-color: #f0a64b;
+    z-index: -1;
     position: fixed;
     bottom: 0;
     width: 100%;
     height: 30px;
   }
   div.bottom-menu p {
-    font-size: 1em;
-  }
-
-  footer p {
-    bottom: 0;
-    width: 100%;
+    font-size: .8em;
+    color: #333333;
+    padding-left: 2%;
   }
 }
+/* End desktop layout ----------- */
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   body {
